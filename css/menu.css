@@ -1,0 +1,378 @@
+
+/* ------------------------------------------------------------- *
+ * Overlay menu 
+/* ------------------------------------------------------------- */
+
+/* Overlay menu 
+================ */
+.tt-overlay-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+    background-image: url("../images/bg4.jpg");
+    background-repeat: no-repeat; 
+    background-position: center ;
+    background-size: cover;
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: initial;
+    z-index: 10001;
+}
+.tt-ol-menu-holder {
+	position: relative;
+	height: 100%;
+	width: calc(100% + 17px);
+	padding-right: 17px;
+	overflow-y: scroll;
+	z-index: 2;
+}
+.tt-ol-menu-inner {
+	display: table;
+	width: 100%;
+	height: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.tt-ol-menu-content {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	padding: 40px 5% 120px 5%;
+}
+@media (max-width: 767px) {
+	.tt-ol-menu-content {
+		padding-top: 15%;
+		padding-bottom: 35%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+/* Disable page scroll if overlay menu is open */
+body.tt-ol-menu-open {
+	overflow-y: hidden !important;
+}
+
+/* Hide smooth scrollbar if overlay menu is open */
+body.tt-smooth-scroll.tt-ol-menu-open .scrollbar-track {
+	display: none !important;
+}
+
+/* Overlay menu list */
+.tt-ol-menu-list {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tt-ol-menu-list > li {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+	.tt-ol-menu-list > li {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+.tt-ol-menu-list > li:first-child {
+	margin-top: 0;
+}
+.tt-ol-menu-list > li:last-child {
+	margin-bottom: 0;
+}
+
+/* Overlay menu list item counter */
+@media (min-width: 992px) {
+	.tt-overlay-menu.tt-ol-menu-count .tt-ol-menu-list {
+		counter-reset: ol-menu-list-counter;
+	}
+	.tt-overlay-menu.tt-ol-menu-count .tt-ol-menu-list > li > a::before,
+	.tt-overlay-menu.tt-ol-menu-count .tt-ol-menu-list > li > .tt-ol-submenu-trigger > a::before {
+		position: absolute;
+		counter-increment: ol-menu-list-counter;
+		content: "" counter(ol-menu-list-counter, decimal-leading-zero);
+		top: 5px;
+		left: -30px;
+		line-height: 1;
+		font-size: 14px;
+		font-weight: normal;
+		color: #FFF;
+		opacity: 0.4;
+        display: none
+	}
+}
+
+/* Overlay menu list links (master parent) */
+.tt-ol-menu-list > li > a,
+.tt-ol-menu-list > li > .tt-ol-submenu-trigger > a {
+	position: relative;
+	display: inline-block;
+	font-size: clamp(34px, 2.2vw, 62px);
+	font-weight: bold;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #eaeaea;
+	transition: opacity 0.3s ease-in-out;
+}
+
+/* Overlay menu list hover/active (master parent). Note: no effect on mobile devices! */
+body:not(.is-mobile) .tt-ol-menu-list.tt-ol-menu-hover > li > a,
+body:not(.is-mobile) .tt-ol-menu-list.tt-ol-menu-hover > li > .tt-ol-submenu-trigger > a,
+body:not(.is-mobile) .tt-ol-menu-list.tt-ol-menu-hover > li > .tt-ol-submenu-trigger .tt-ol-submenu-caret {
+	opacity: .5;
+}
+body:not(.is-mobile) .tt-ol-menu-list > li.active > a,
+body:not(.is-mobile) .tt-ol-menu-list > li.active > .tt-ol-submenu-trigger > a,
+body:not(.is-mobile) .tt-ol-menu-list > li.active > .tt-ol-submenu-trigger .tt-ol-submenu-caret,
+body:not(.is-mobile) .tt-ol-menu-list > li > a:hover,
+body:not(.is-mobile) .tt-ol-menu-list > li > .tt-ol-submenu-trigger:hover > a,
+body:not(.is-mobile) .tt-ol-menu-list > li > .tt-ol-submenu-trigger:hover .tt-ol-submenu-caret,
+body:not(.is-mobile) .tt-ol-menu-list > li > .tt-ol-submenu-trigger.tt-ol-submenu-open > a,
+body:not(.is-mobile) .tt-ol-menu-list > li > .tt-ol-submenu-trigger.tt-ol-submenu-open .tt-ol-submenu-caret {
+	opacity: 1;
+}
+
+/* Overlay menu submenu */
+.tt-ol-submenu-wrap {
+	position: relative;
+}
+.tt-ol-submenu-trigger {
+	position: relative;
+	display: inline-block;
+}
+.tt-ol-submenu {
+	display: none;
+	position: relative;
+	height: auto;
+	margin-left: 20px;
+	color: #8a8a8a;
+}
+.tt-ol-menu-list > li > .tt-ol-submenu {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Overlay menu submenu list */
+.tt-ol-submenu-list {
+	padding: 0;
+	list-style: none;
+}
+.tt-ol-submenu-list .tt-ol-submenu {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+/* Overlay menu submenu list links */
+.tt-ol-submenu-list > li a,
+.tt-ol-submenu-list > li > .tt-ol-submenu-trigger > a {
+	display: inline-block;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 19px;
+	color: #AAA;
+	transition: color 0.3s ease-in-out;
+}
+
+/* Overlay menu submenu list hover/active */
+.tt-ol-submenu-list > li > .tt-ol-submenu-trigger.tt-ol-submenu-open > a,
+.tt-ol-submenu-list > li > .tt-ol-submenu-trigger.tt-ol-submenu-open .tt-ol-submenu-caret,
+.tt-ol-submenu-list > li.active > a,
+.tt-ol-submenu-list > li.active > .tt-ol-submenu-trigger > a,
+.tt-ol-submenu-list > li.active > .tt-ol-submenu-trigger .tt-ol-submenu-caret,
+.tt-ol-submenu-list > li a:hover,
+.tt-ol-submenu-list > li > .tt-ol-submenu-trigger:hover > a,
+.tt-ol-submenu-list > li > .tt-ol-submenu-trigger:hover .tt-ol-submenu-caret {
+	color: #FFF;
+}
+
+/* Submenu caret (requires FontAwesome: https://fontawesome.com/) */
+.tt-ol-submenu-caret-wrap {
+	position: absolute;
+	top: 60%;
+	right: -40px;
+	transform: translate3d(0, -50%, 0);
+}
+@media (max-width: 767px) {
+	.tt-ol-submenu-caret-wrap {
+		right: -40px;
+	}
+}
+.tt-ol-submenu-caret {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	color: #eaeaea;
+	cursor: pointer;
+	z-index: 2;
+	border-radius: 100%;
+	transition: opacity 0.3s ease-in-out;
+}
+.tt-ol-submenu-caret::after {
+	font-family: "Font Awesome 5 Free";
+	content: "\f107";
+	font-weight: 900;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	transition: all 0.2s ease-in-out;
+}
+.tt-ol-submenu-trigger.tt-ol-submenu-open .tt-ol-submenu-caret::after {
+	transform: rotate(180deg);
+}
+
+/* Sub-submenu caret */
+.tt-ol-menu-list > li li .tt-ol-submenu-caret-wrap {
+	top: 50%;
+	right: -40px;
+}
+.tt-ol-menu-list > li li .tt-ol-submenu-caret {
+	font-size: 16px;
+	color: #8a8a8a;
+}
+
+
+/* Overlay menu toggle button 
+============================== */
+#tt-ol-menu-toggle-btn-wrap {
+	position: relative;
+	display: flex;
+	align-items: center;
+	pointer-events: initial;
+	cursor: pointer;
+	z-index: 9;
+}
+@media (min-width: 1025px) {
+	body.tt-header-tools-on #tt-ol-menu-toggle-btn-wrap {
+		margin-right: 20px;
+	}
+}
+.tt-ol-menu-toggle-btn-holder {
+	float: left;
+}
+
+/* Toggle button */
+.tt-ol-menu-toggle-btn {
+	position: relative;
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+.tt-ol-menu-toggle-btn span {
+	position: absolute;
+	display: block;
+	top: 54%;
+	left: 50%;
+	height: 2px;
+	width: 24px;
+	background-color: transparent;
+	transform: translate(-50%, -50%);
+	transition: all 0.3s ease-in-out;
+}
+.tt-ol-menu-toggle-btn span::before,
+.tt-ol-menu-toggle-btn span::after {
+	position: absolute;
+	display: block;
+	content: '';
+	height: 2px;
+	width: 24px;
+	background-color: #FFF;
+	transition: all 0.3s ease-in-out;
+}
+.tt-ol-menu-toggle-btn span::before {
+	top: -4px;
+	width: 24px;
+}
+.tt-ol-menu-toggle-btn span::after {
+	top: auto;
+	bottom: -4px;
+	width: 18px;
+}
+
+/* Toggle button text */
+.tt-ol-menu-toggle-btn-text {
+	float: left;
+	padding-right: 5px;
+	overflow: hidden;
+	text-align: right;
+	font-size: 15px;
+	color: #FFF;
+}
+@media (max-width: 320px) {
+	.tt-ol-menu-toggle-btn-text {
+		display: none;
+	}
+}
+
+/* Toggle button text hover */
+.tt-ol-menu-toggle-btn-text .text-menu {
+	position: relative;
+	display: inline-block;
+	text-align: right;
+	transition: transform 0.3s;
+}
+body.tt-ol-menu-open .tt-ol-menu-toggle-btn-text .text-menu {
+	display: none;
+}
+
+body:not(.is-mobile) .tt-ol-menu-toggle-btn-text .text-menu::before {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	content: attr(data-hover);
+}
+body:not(.is-mobile) #tt-ol-menu-toggle-btn-wrap:hover .tt-ol-menu-toggle-btn-text .text-menu {
+	transform: translate3d(0, -100%, 0);
+}
+
+/* Toggle button close */
+body.tt-ol-menu-open .tt-ol-menu-toggle-btn span {
+	width: 20px;
+	background-color: transparent;
+}
+body.tt-ol-menu-open .tt-ol-menu-toggle-btn span::before {
+	top: 0;
+	width: 20px;
+	transform: rotate(45deg);
+}
+body.tt-ol-menu-open .tt-ol-menu-toggle-btn span::after {
+	bottom: 0;
+	width: 20px;
+	transform: rotate(-45deg);
+}
+
+.tt-ol-menu-toggle-btn-text .text-close {
+	display: none;
+}
+body.tt-ol-menu-open .tt-ol-menu-toggle-btn-text .text-close {
+	display: block;
+}
+
+/* Disable menu toggle button click until the animations last */
+body.olm-toggle-no-click .tt-ol-menu-toggle-btn-text,
+body.olm-toggle-no-click .tt-ol-menu-toggle-btn {
+	pointer-events: none;
+}
+
+
+/* Overlay menu position center 
+================================ */
+.tt-overlay-menu.tt-ol-menu-center .tt-ol-menu-content {
+	text-align: center;
+}
+.tt-overlay-menu.tt-ol-menu-center .tt-ol-submenu {
+	margin-left: 0;
+}
+
+
+
