@@ -28,9 +28,10 @@
 <div class="body_wraper" >
 <?php include 'header.php'?>  
 <div class="page_content" >
-<section class="A_skincare_sec bg_grd comn_shape_bg">
+<section class="A_skincare_sec bg_grd comn_shape_bg" style="background: white; background: url(images/bg2...png);background-posotion:center; 
+    background-size: cover;">
 <div class="container">
-<h2 class="site_title">Skin Care Packages</h2>
+<h2 class="site_title"style="font-weight: bold; color:black;">Skin Care Packages</h2>
 <div class="comn_package_row_outer">
 <div class="row comn_package_row">
 <div class="col-lg-6">
@@ -43,9 +44,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Tropical Fruit Wrap </h4>
-<div class="pkg_minuts">60 minutes</div>
-<p>A gentle exfoliation and an exotic body pack of farm fresh, anti-oxidant rich, tropical fruits like papaya, banana and oranges mixed with Ayurvedic herbs ensures your skin stays soft and supple. Suitable for all skin types.</p>
+<h4 class="pkg_title"style="font-weight: bold;color:black; ">Tropical Fruit Wrap </h4>
+<div class="pkg_minuts"style="color:black;">60 minutes</div>
+<p style="color: #FAB502;">A gentle exfoliation and an exotic body pack of farm fresh, anti-oxidant rich, tropical fruits like papaya, banana and oranges mixed with Ayurvedic herbs ensures your skin stays soft and supple. Suitable for all skin types.</p>
 </div>  
 </div>
 </div>
@@ -61,9 +62,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Himalayan Salt Scrub and Chandan Pack</h4>
-<div class="pkg_minuts">90 minutes</div>
-<p>A body scrub using organic Himalayan salts followed by an aromatic sandalwood pack giving your skin a youthful glow and toned look. Suitable for all skin types.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Himalayan Salt Scrub and Chandan Pack</h4>
+<div class="pkg_minuts"style="color:black;">90 minutes</div>
+<p style="color: #FAB502;">A body scrub using organic Himalayan salts followed by an aromatic sandalwood pack giving your skin a youthful glow and toned look. Suitable for all skin types.</p>
 </div>  
 </div>
 </div>
@@ -79,9 +80,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Reviving Salt Body Polish</h4>
-<div class="pkg_minuts">45 minutes</div>
-<p>Cold pressed oils and natural sea salts are blended with essential oils and herbs for gentle exfoliation that leaves the skin smooth and radiant. Suitable for all skin types.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Reviving Salt Body Polish</h4>
+<div class="pkg_minuts"style="color:black;">45 minutes</div>
+<p style="color: #FAB502;">Cold pressed oils and natural sea salts are blended with essential oils and herbs for gentle exfoliation that leaves the skin smooth and radiant. Suitable for all skin types.</p>
 </div>  
 </div>
 </div>
@@ -97,9 +98,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Balancing Sugar Body Polish</h4>
-<div class="pkg_minuts">45 minutes</div>
-<p>Cane sugar, coconut, cold pressed and essential oils gently exfoliate, nourish and revitalise dry skin.</p>
+<h4 class="pkg_title"style="font-weight: bold;color:black; ">Balancing Sugar Body Polish</h4>
+<div class="pkg_minuts"style="color:black;">45 minutes</div>
+<p style="color: #FAB502;">Cane sugar, coconut, cold pressed and essential oils gently exfoliate, nourish and revitalise dry skin.</p>
 </div>  
 </div>
 </div>
@@ -115,9 +116,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Vetiver Facial</h4>
-<div class="pkg_minuts">60 minutes</div>
-<p>Blended with the goodness of wheatgerm oil, it provides facial skin with the essential nutrients for rejuvenation and toning. Suitable for all skin types.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Vetiver Facial</h4>
+<div class="pkg_minuts"style="color:black;">60 minutes</div>
+<p style="color: #FAB502;">Blended with the goodness of wheatgerm oil, it provides facial skin with the essential nutrients for rejuvenation and toning. Suitable for all skin types.</p>
 </div>  
 </div>
 </div>

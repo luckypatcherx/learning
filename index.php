@@ -47,9 +47,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="promo home_slider">
 <div class="for_sliderarrow">
 <div class="promo-slider">
-<div class="promo-slider__item hm_slide_item" style="background-color: white;background: url(images/bg2.png); background-repeat: no-repeat;
-background-position: center;    background-size: cover;
-    ">
+<div class="promo-slider__item hm_slide_item"  >
 <picture>
 <img class="img--bg d-lg-none" src="images/slider/1.jpg" alt="img"/>
 </picture>
@@ -59,8 +57,8 @@ background-position: center;    background-size: cover;
 <div class="align-container pe-lg-3 pe-xl-5">
 <div class="align-container__item slider_content">
 
-<div class="promo-slider__wrapper-1">
-<h3 class=""style="color: black;">Rejuvenate your body and mind at Limespa Cochin</h3>
+<div class="promo-slider__wrapper-1" >
+<h3 class=""style="color: white;">Rejuvenate your body and mind at Limespa Cochin</h3>
 <div class="bb_line">
 <svg  viewBox="0 0 180 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5 10.162C5 10.162 60.629 46.55 174.484 5"  stroke-miterlimit="10" stroke-linecap="round"/>
@@ -68,7 +66,7 @@ background-position: center;    background-size: cover;
 </div>
 </div>
 <div class="promo-slider__wrapper-2">
-<p>Book your spa appointment now </p>
+<p style="color: #FAB502;">Book your spa appointment now </p>
 </div>		
 <div class="promo-slider__wrapper-3">
 <div class="bnr_btn_area">
@@ -95,9 +93,7 @@ background-position: center;    background-size: cover;
 </div>
 </div>
 
-<div class="main promo-slider__item hm_slide_item promos" style="background-color: white; background: url(images/bg2.png); background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;">
+<div class="main promo-slider__item hm_slide_item promos" >
 <picture>
 <img class="img--bg d-lg-none" src="images/slider/2.jpg" alt="img"/>
 </picture>
@@ -107,7 +103,7 @@ background-position: center;    background-size: cover;
 <div class="align-container pe-lg-3 pe-xl-5">
 <div class="align-container__item slider_content">
 <div class="promo-slider__wrapper-1">
-<h3 class=""style="color: black;">Relax your body, Calm your mind, Renew<br> your soul</h3>
+<h3 class=""style="color: white;">Relax your body, Calm your mind, Renew<br> your soul</h3>
 <div class="bb_line">
 <svg  viewBox="0 0 180 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5 10.162C5 10.162 60.629 46.55 174.484 5"  stroke-miterlimit="10" stroke-linecap="round"/>
@@ -115,7 +111,7 @@ background-position: center;    background-size: cover;
 </div>
 </div>
 <div class="promo-slider__wrapper-2">
-<p>Book your massage appointment now</p>
+<p style="color: #FAB502;">Book your massage appointment now</p>
 </div>		
 <div class="promo-slider__wrapper-3">
 <div class="bnr_btn_area">
@@ -141,9 +137,7 @@ background-position: center;    background-size: cover;
 </div>
 </div>
 </div>
-<div class="promo-slider__item hm_slide_item" style="background-color: white; background: url(images/bg2.png); background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; ">
+<div class="promo-slider__item hm_slide_item">
 <picture>
 <img class="img--bg d-lg-none" src="images/slider/3.jpg" alt="img"/>
 </picture>
@@ -153,7 +147,7 @@ background-position: center;    background-size: cover;
 <div class="align-container pe-lg-3 pe-xl-5">
 <div class="align-container__item slider_content">
 <div class="promo-slider__wrapper-1">
-<h3 class="" style="color: black;">Taking time out to Relax and Renew is Essential to Living Well</h3>
+<h3 class="" style="color: white;">Taking time out to Relax and Renew is Essential to Living Well</h3>
 <div class="bb_line">
 <svg  viewBox="0 0 180 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5 10.162C5 10.162 60.629 46.55 174.484 5"  stroke-miterlimit="10" stroke-linecap="round"/>
@@ -161,7 +155,7 @@ background-position: center;    background-size: cover;
 </div>
 </div>
 <div class="promo-slider__wrapper-2">
-<p>Book your spa appointment now  </p>
+<p style="color: #FAB502;">Book your spa appointment now  </p>
 </div>		
 <div class="promo-slider__wrapper-3">
 <div class="bnr_btn_area">
@@ -205,24 +199,22 @@ background-position: center;    background-size: cover;
 
 </div>
 </section>
-<section class="home_about_sec" style="background: white;background: url(images/bg2.png); background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;">
+<section class="home_about_sec">
 <div class="container">
 <div class="title_row">
-<h6 class="sb_title">About Us</h6>
-<h1 class="site_title">Wellness Centre & Spa Clinic in Kochi</h1>
+<h6 class="sb_title" style="color: #FAB502;">About Us</h6>
+<h1 class="site_title" style="color: white;font-weight: bold;">Wellness Centre & Spa Clinic in Kochi</h1>
 <div class="bg_text">Lime Spa</div>
 </div>
 <div class="row">
 <div class="col-lg-5">
 <div class="sec_left pe-lg-5"">
-<h3 style="color: black;">Experience a sense of Euphoria by surrendering each and every muscle in your body.  </h3>   
+<h3 style="color: white;font-weight: bold;">Experience a sense of Euphoria by surrendering each and every muscle in your body.  </h3>   
 </div>
 </div>
 <div class="col-lg-7">
 <div class="sec_right ">
-<p>In our spa, we employ high-quality products to enhance your natural beauty. We have happily serviced numerous customers throughout the years, which has allowed us to mark our significance. Our Manicures, Pedicures, Waxing, Facials, and Massages give a relaxing experience while also medicating the skin with exfoliation and hydration. </p>  
+<p style="color: #FAB502;">In our spa, we employ high-quality products to enhance your natural beauty. We have happily serviced numerous customers throughout the years, which has allowed us to mark our significance. Our Manicures, Pedicures, Waxing, Facials, and Massages give a relaxing experience while also medicating the skin with exfoliation and hydration. </p>  
 <a href="about.php" class="readmore_link" style="color: black;">More About Us <span></span></a>
 </div>
 </div>
@@ -238,7 +230,7 @@ background-position: center;
 <div class="row justify-content-center">
 <div class="col-lg-7">
 <div class="title_row text-center">
-<h3 class="site_title" style="color: #FAB502;">Ayurveda Spa Centre in Cochin (Ernakulam)</h3>
+<h3 class="site_title" style="color: black;font-weight: bold;">Ayurveda Spa Centre in Cochin (Ernakulam)</h3>
 <p>We have devised a number of ayurvedic packages for our valuable customers to always yield side benefits and not side effects</p>
 </div>
 </div>  
@@ -252,7 +244,7 @@ background-position: center;
 </a>   
 </div>   
 <div class="img_cate_content">
-<a href="ayurveda-spa-massage-packages.php" >Massage Packages</a>    
+<a href="ayurveda-spa-massage-packages.php" style="color:#FAB502;">Massage Packages</a>    
 </div>
 </div>
 </div>  
@@ -264,7 +256,7 @@ background-position: center;
 </a>   
 </div>   
 <div class="img_cate_content">
-<a href="ayurveda-spa-therapies-packages.php">Therapies Packages  </a>  
+<a href="ayurveda-spa-therapies-packages.php"style="color:#FAB502;">Therapies Packages  </a>  
 </div>
 </div>
 </div>  
@@ -276,7 +268,7 @@ background-position: center;
 </a>   
 </div>   
 <div class="img_cate_content">
-<a href="ayurveda-spa-skin-care-packages.php">Skin Care Packages </a>  
+<a href="ayurveda-spa-skin-care-packages.php"style="color:#FAB502;">Skin Care Packages </a>  
 </div>
 </div>
 </div>  
@@ -288,7 +280,7 @@ background-position: center;
 </a>   
 </div>   
 <div class="img_cate_content">   
-<a href="ayurveda-spa-signature-packages.php">Signature Packages</a>  
+<a href="ayurveda-spa-signature-packages.php"style="color:#FAB502;">Signature Packages</a>  
 </div>
 </div>
 </div>  
@@ -299,7 +291,7 @@ background-position: center;
 <section class="home_western_spa_Sec" style="background-color: white; color: black;background: url(images/bg2.png); background-repeat: no-repeat;
     background-size: cover;">
 <div class="container">
-<h3 class="site_title" style="color: #FAB502;">Wellness & Western Spa Centre - Kochi</h3>
+<h3 class="site_title" style="color: black;font-weight: bold;">Wellness & Western Spa Centre - Kochi</h3>
 <div class="row wspa_row">
 <div class="col-lg-6">
 <div class="sec_left pe-lg-4">
@@ -356,9 +348,7 @@ background-position: center;
 </div>
 </div>
 </section>
-<section class="hm_booking_sec" style="background-color: white; color: black;background: url(images/bg2.png); background-repeat: no-repeat;
-background-position: center;
-    background-size: cover;">
+<section class="hm_booking_sec" >
 <div class="container">
 <div class="hb_mgn">
 <div class="row">
@@ -400,7 +390,7 @@ background-position: center;
 <div class="comn_img_block">
 <img src="images/saloon/woman/1.jpg">
 </div>  
-<h4>Hair Cut (Men & Woman)</h4>
+<h4 style="color:black">Hair Cut (Men & Woman)</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -408,7 +398,7 @@ background-position: center;
 <div class="comn_img_block">
 <img src="images/saloon/men/2.jpg">
 </div>  
-<h4>Hair Spa (Men & Woman)</h4>
+<h4 style="color:black">Hair Spa (Men & Woman)</h4>
 </div>
 </div>
 <div class="col-lg-3 col-sm-6">
@@ -416,7 +406,7 @@ background-position: center;
 <div class="comn_img_block">
 <img src="images/saloon/wedding/1.jpg">
 </div>  
-<h4>Wedding Packages</h4>
+<h4 style="color:black">Wedding Packages</h4>
 </div>
 </div>
 <div class="col-lg-3 col-sm-6">
@@ -424,7 +414,7 @@ background-position: center;
 <div class="comn_img_block">
 <img src="images/saloon/facial/2.jpg">
 </div>  
-<h4>Facial Packages</h4>
+<h4 style="color:black">Facial Packages</h4>
 </div>
 </div>
 <div class="col-lg-3 col-sm-6">
@@ -432,7 +422,7 @@ background-position: center;
 <div class="comn_img_block">
 <img src="images/saloon/hair-color/6.jpg">
 </div>  
-<h4>Hair Colour Packages</h4>
+<h4 style="color:black">Hair Colour Packages</h4>
 </div>
 </div>
 <div class="col-lg-3 col-sm-6">
@@ -440,7 +430,7 @@ background-position: center;
 <div class="comn_img_block">
 <img src="images/saloon/woman/4.jpg">
 </div>  
-<h4>Hair Straightening</h4>
+<h4 style="color:black">Hair Straightening</h4>
 </div>
 </div>
 <div class="col-lg-3 col-sm-6">
@@ -448,7 +438,7 @@ background-position: center;
 <div class="comn_img_block">
 <img src="images/saloon/hair-color/7.jpg">
 </div>  
-<h4>Threading</h4>
+<h4 style="color:black">Threading</h4>
 </div>
 </div>
 <div class="col-lg-3 col-sm-6">
@@ -456,25 +446,25 @@ background-position: center;
 <div class="comn_img_block">
 <img src="images/saloon/wax/1.jpg">
 </div>  
-<h4>Wax Packages</h4>
+<h4 style="color:black">Wax Packages</h4>
 </div>
 </div>
 
 </div>
     
 <div class="more_packages_sec">
-<a href="saloon.php" class="theme_btn">View All Packages </a>  
+<a href="saloon.php" class="theme_btn" style="color:white;background-color: #FAB502;font-weight: bold;">View All Packages </a>  
 </div>
 </div>
 </section>
 
-<section class="testimonial_sec">
+<section class="testimonial_sec"  style="background-color: black;  ">
 <div class="container">
 <div class="row ">
 <div class="col-lg-4">
 <div class="sec_left">
 <div class="tes_icon"></div>
-<h3 class="site_title">What Our <br>
+<h3 class="site_title" style="color: #FAB502; font-weight: bold;">What Our <br>
 Customers Say</h3>
 </div>    
 </div>
@@ -484,18 +474,18 @@ Customers Say</h3>
 <div class="overflow_slide" id="testimonial-slider">
 <div class="item ">
 <div class="ts_text_box">
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>
+<p style="color: #FAB502;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>
 <div class="tes_auther">
-<h6>George Roy</h6>
+<h6>-George Roy</h6>
 </div>
 </div>           
 </div>
 
 <div class="item ">
 <div class="ts_text_box">
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>
+<p style="color: #FAB502;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>
 <div class="tes_auther">
-<h6>Abhijith Jyothi</h6>
+<h6>-Abhijith Jyothi</h6>
 </div>
 </div>           
 </div>
@@ -507,12 +497,12 @@ Customers Say</h3>
 </div>
 
 </section>
-<section class="partner_sec">
+<section class="partner_sec" style="background: black;">
 <div class="container">
 <div class="row">
 <div class="col-lg-4 d-lg-flex align-items-center">
 <div class="sec_left">
-<h3 class="site_title mb-lg-0">Our Partners</h3>    
+<h3 class="site_title mb-lg-0" style="color:#FAB502; font-weight: bold;">Our Partners</h3>    
 </div>    
 </div>
 <div class="col-lg-8">

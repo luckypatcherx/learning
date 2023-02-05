@@ -28,7 +28,7 @@
 <div class="body_wraper" >
 <?php include 'header.php'?>  
 <div class="page_content" >
-<section class="ayurveda_spa_landing bg_grd">
+<section class="ayurveda_spa_landing bg_grd" style="background: white;">
 <div class="container">
 <h3 class="site_title">Ayurveda Spa Packages</h3>
 <div class="row m_30">

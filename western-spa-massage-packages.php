@@ -28,9 +28,10 @@
 <div class="body_wraper" >
 <?php include 'header.php'?>  
 <div class="page_content" >
-<section class="W_massage_sec bg_grd comn_shape_bg2">
+<section class="W_massage_sec bg_grd comn_shape_bg2" style="background: white; background: url(images/bg2...png);background-posotion:center; 
+    background-size: cover;">
 <div class="container">
-<h2 class="site_title">Massage Packages</h2>
+<h2 class="site_title" style="font-weight: bold;color:black; ">Massage Packages</h2>
 <div class="comn_package_row_outer">
 <div class="row comn_package_row">
 <div class="col-lg-6">
@@ -43,9 +44,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Swedish Massage </h4>
-<div class="pkg_minuts">60 / 90 minutes</div>
-<p>A firm, yet gentle European massage which improves circulation, eases muscle aches and tension.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Swedish Massage </h4>
+<div class="pkg_minuts" style="color:black;">60 / 90 minutes</div>
+<p style="color: #FAB502;">A firm, yet gentle European massage which improves circulation, eases muscle aches and tension.</p>
 </div>  
 </div>
 </div>
@@ -61,9 +62,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Balinese Massage</h4>
-<div class="pkg_minuts">60 / 90 minutes</div>
-<p>With a unique blend of acupressure, reflexology and aromatic essential oils, the massage uses a variety of holistic massage techniques in calming nerves and healing the body.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Balinese Massage</h4>
+<div class="pkg_minuts" style="color:black;">60 / 90 minutes</div>
+<p style="color: #FAB502;">With a unique blend of acupressure, reflexology and aromatic essential oils, the massage uses a variety of holistic massage techniques in calming nerves and healing the body.</p>
 </div>  
 </div>
 </div>
@@ -79,9 +80,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Deep Tissue Massage</h4>
-<div class="pkg_minuts">60 / 90 minutes</div>
-<p>The massage releases chronic muscle tension from the deeper layers of the muscle tissue greatly enhancing blood circulation.</p>
+<h4 class="pkg_title" style="font-weight: bold;color:black; ">Deep Tissue Massage</h4>
+<div class="pkg_minuts" style="color:black;">60 / 90 minutes</div>
+<p style="color: #FAB502;">The massage releases chronic muscle tension from the deeper layers of the muscle tissue greatly enhancing blood circulation.</p>
 </div>  
 </div>
 </div>
@@ -97,9 +98,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Aroma Therapy Massage  </h4>
-<div class="pkg_minuts">60 minutes </div>
-<p>This is a unique therapy that combines plant-derived aromatic essential oils with a soft relaxing massage for a calming and energising effect.</p>
+<h4 class="pkg_title" style="font-weight: bold;color:black; ">Aroma Therapy Massage  </h4>
+<div class="pkg_minuts" style="color:black;">60 minutes </div>
+<p style="color: #FAB502;">This is a unique therapy that combines plant-derived aromatic essential oils with a soft relaxing massage for a calming and energising effect.</p>
 </div>  
 </div>
 </div>
@@ -116,9 +117,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">LIME Fusion Massage  </h4>
-<div class="pkg_minuts">45 minutes </div>
-<p>This soothing body massage uses a combination of popular western techniques designed to drain away the stress and strain of everyday life.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">LIME Fusion Massage  </h4>
+<div class="pkg_minuts" style="color:black;">45 minutes </div>
+<p style="color: #FAB502;">This soothing body massage uses a combination of popular western techniques designed to drain away the stress and strain of everyday life.</p>
 </div>  
 </div>
 </div>
@@ -135,9 +136,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Back Massage  </h4>
-<div class="pkg_minuts">30 minutes </div>
-<p>A variety of massage techniques are used to release the knotted muscles across the spine and back thus providing relief from aches and tension.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Back Massage  </h4>
+<div class="pkg_minuts" style="color:black;">30 minutes </div>
+<p style="color: #FAB502;">A variety of massage techniques are used to release the knotted muscles across the spine and back thus providing relief from aches and tension.</p>
 </div>  
 </div>
 </div>
@@ -154,9 +155,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Scalp Massage  </h4>
-<div class="pkg_minuts">30 minutes </div>
-<p>A deep scalp massage using the pressure point technique. Boosts the strength of the hair roots while the oil conditions hair, providing lustre and shine.</p>
+<h4 class="pkg_title" style="font-weight: bold;color:black; ">Scalp Massage  </h4>
+<div class="pkg_minuts" style="color:black;">30 minutes </div>
+<p style="color: #FAB502;">A deep scalp massage using the pressure point technique. Boosts the strength of the hair roots while the oil conditions hair, providing lustre and shine.</p>
 </div>  
 </div>
 </div>
@@ -173,9 +174,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Foot Reflexology  </h4>
-<div class="pkg_minuts">30 / 60 minutes </div>
-<p>Reflexology involves massaging the pressure points on your feet which correspond to a part of the body. Specific manipulation and pressure on these points eliminates blockages in the corresponding organs, glands and other parts of the body.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Foot Reflexology  </h4>
+<div class="pkg_minuts" style="color:black;">30 / 60 minutes </div>
+<p style="color: #FAB502;">Reflexology involves massaging the pressure points on your feet which correspond to a part of the body. Specific manipulation and pressure on these points eliminates blockages in the corresponding organs, glands and other parts of the body.</p>
 </div>  
 </div>
 </div>

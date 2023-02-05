@@ -35,9 +35,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="body_wraper" >
 <?php include 'header.php'?>  
 <div class="page_content" >
-<section class="W_facial_sec bg_grd comn_shape_bg2">
+<section class="W_facial_sec bg_grd comn_shape_bg2"style="background: white;  background: url(images/bg2...png);background-posotion:center; 
+    background-size: cover;">
 <div class="container">
-<h2 class="site_title">Facial Packages </h2>
+<h2 class="site_title" style="font-weight: bold; color:black;">Facial Packages </h2>
 <div class="comn_package_row_outer">
 <div class="row comn_package_row">
 <div class="col-lg-6">
@@ -50,9 +51,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Facial for dry or dehydrated skin  </h4>
-<div class="pkg_minuts">60 minutes</div>
-<p>Replenishes the vitality of dry skin by maintaining the moisture level. Nourishes and tones, leaving the skin soft, supple and well-hydrated.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Facial for dry or dehydrated skin  </h4>
+<div class="pkg_minuts"style="color:black;">60 minutes</div>
+<p style="color: #FAB502;">Replenishes the vitality of dry skin by maintaining the moisture level. Nourishes and tones, leaving the skin soft, supple and well-hydrated.</p>
 </div>  
 </div>
 </div>
@@ -69,9 +70,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Facial for normal to combination skin  </h4>
-<div class="pkg_minuts">60 minutes</div>
-<p>A facial for combination skin that normalises that oily T-Zone while combating dehydration.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Facial for normal to combination skin  </h4>
+<div class="pkg_minuts"style="color:black;">60 minutes</div>
+<p style="color: #FAB502;">A facial for combination skin that normalises that oily T-Zone while combating dehydration.</p>
 </div>  
 </div>
 </div>
@@ -88,9 +89,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Facial for oily skin  </h4>
-<div class="pkg_minuts">60 minutes</div>
-<p>Carefully selected natural extracts in light, textured, non-greasy formulations ensure a matte, shine-free, refined complexion with unclogged pores. 60 minutes</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Facial for oily skin  </h4>
+<div class="pkg_minuts"style="color:black;">60 minutes</div>
+<p style="color: #FAB502;">Carefully selected natural extracts in light, textured, non-greasy formulations ensure a matte, shine-free, refined complexion with unclogged pores. 60 minutes</p>
 </div>  
 </div>
 </div>
@@ -107,9 +108,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Sensitive Facial  </h4>
-<div class="pkg_minuts">60 minutes</div>
-<p>French rose essential oil, chamomile and allantoin restore the skin’s hypersensitivity and defenses.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Sensitive Facial  </h4>
+<div class="pkg_minuts"style="color:black;">60 minutes</div>
+<p style="color: #FAB502;">French rose essential oil, chamomile and allantoin restore the skin’s hypersensitivity and defenses.</p>
 </div>  
 </div>
 </div>

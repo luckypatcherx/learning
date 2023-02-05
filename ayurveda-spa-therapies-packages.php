@@ -28,9 +28,10 @@
 <div class="body_wraper" >
 <?php include 'header.php'?>  
 <div class="page_content" >
-<section class="A_therapies_sec bg_grd comn_shape_bg">
+<section class="A_therapies_sec bg_grd comn_shape_bg" style="background: white; background: url(images/bg2...png);background-posotion:center; 
+    background-size: cover;">
 <div class="container">
-<h2 class="site_title">Therapies Packages</h2>
+<h2 class="site_title" style="font-weight: bold; color:black;">Therapies Packages</h2>
 <div class="comn_package_row_outer">
 <div class="row comn_package_row">
 <div class="col-lg-6">
@@ -43,9 +44,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Shirodhara </h4>
-<div class="pkg_minuts">60 / 30 minutes</div>
-<p>Shirodhara is a relaxation and de-stressing therapy which involves pouring of warm, medicated oil over the forehead after an oil massage for the head and oil application for the body.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black; ">Shirodhara </h4>
+<div class="pkg_minuts" style="color:black;">60 / 30 minutes</div>
+<p style=" color:#FAB502; ">Shirodhara is a relaxation and de-stressing therapy which involves pouring of warm, medicated oil over the forehead after an oil massage for the head and oil application for the body.</p>
 </div>  
 </div>
 </div>
@@ -61,9 +62,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Back and Spine Care</h4>
-<div class="pkg_minuts">60 / 30 minutes</div>
-<p>An Ayurveda therapy using selected oils and medicinal herbs to ease muscular pain and stiffness of the spine, back, neck and shoulders.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Back and Spine Care</h4>
+<div class="pkg_minuts"style="color:black;">60 / 30 minutes</div>
+<p style=" color:#FAB502; ">An Ayurveda therapy using selected oils and medicinal herbs to ease muscular pain and stiffness of the spine, back, neck and shoulders.</p>
 </div>  
 </div>
 </div>
@@ -79,9 +80,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Njavara Kizhi</h4>
-<div class="pkg_minuts">60 minutes</div>
-<p>A rejuvenation therapy that involves applying warm poultices of Njavara rice cooked in herbal decoction and milk on the body. It enhances the complexion, strengthens muscles, stimulates the nervous system and relieves joint stiffness.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Njavara Kizhi</h4>
+<div class="pkg_minuts"style="color:black;">60 minutes</div>
+<p style=" color:#FAB502; ">A rejuvenation therapy that involves applying warm poultices of Njavara rice cooked in herbal decoction and milk on the body. It enhances the complexion, strengthens muscles, stimulates the nervous system and relieves joint stiffness.</p>
 </div>  
 </div>
 </div>
@@ -97,9 +98,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Pizhichil</h4>
-<div class="pkg_minuts">60 minutes</div>
-<p>Involves a soft body massage while subjecting the body to streams of lukewarm medicated oil. It helps in preventing neurological and rheumatic complaints and relieves muscular spasms.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Pizhichil</h4>
+<div class="pkg_minuts"style="color:black;">60 minutes</div>
+<p style=" color:#FAB502; ">Involves a soft body massage while subjecting the body to streams of lukewarm medicated oil. It helps in preventing neurological and rheumatic complaints and relieves muscular spasms.</p>
 </div>  
 </div>
 </div>
@@ -115,9 +116,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Udwarthanam</h4>
-<div class="pkg_minuts">45 minutes</div>
-<p>A therapy to fight obesity where warmed dry herbal powders are scrubbed vigorously on the skin to melt away sub-cutaneous fat. Also invigorates the skin through exfoliation.</p>
+<h4 class="pkg_title"style="font-weight: bold;color:black; ">Udwarthanam</h4>
+<div class="pkg_minuts"style="color:black;">45 minutes</div>
+<p style=" color:#FAB502; ">A therapy to fight obesity where warmed dry herbal powders are scrubbed vigorously on the skin to melt away sub-cutaneous fat. Also invigorates the skin through exfoliation.</p>
 </div>  
 </div>
 </div>
@@ -134,9 +135,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Nasyam</h4>
-<div class="pkg_minuts">30 minutes </div>
-<p>Herbal extracts or oils introduced into the nostrils and a massage around the sinus areas helps flush out sinuses and relieve sinus-related congestion and headaches.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Nasyam</h4>
+<div class="pkg_minuts"style="color:black;">30 minutes </div>
+<p style=" color:#FAB502; ">Herbal extracts or oils introduced into the nostrils and a massage around the sinus areas helps flush out sinuses and relieve sinus-related congestion and headaches.</p>
 </div>  
 </div>
 </div>
@@ -153,9 +154,9 @@
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Kateevasti</h4>
-<div class="pkg_minuts">30 minutes</div>
-<p>Warm medicated oil kept within a herbal paste boundary around the lumbo-sacral spine relieves lumbo-sacral pain by easing out related muscular spasms and inflammation. </p>
+<h4 class="pkg_title"style="font-weight: bold;color:black; ">Kateevasti</h4>
+<div class="pkg_minuts"style="color:black;">30 minutes</div>
+<p style=" color:#FAB502; ">Warm medicated oil kept within a herbal paste boundary around the lumbo-sacral spine relieves lumbo-sacral pain by easing out related muscular spasms and inflammation. </p>
 </div>  
 </div>
 </div>

@@ -35,9 +35,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="body_wraper" >
 <?php include 'header.php'?>  
 <div class="page_content" >
-<section class="A_massage_sec bg_grd comn_shape_bg">
+<section class="A_massage_sec bg_grd comn_shape_bg"style="background-color:white; background: url(images/bg2...png);background-posotion:center; 
+    background-size: cover;" >
 <div class="container">
-<h2 class="site_title">Massage Packages</h2>
+<h2 class="site_title" style="font-weight: bold;color:black; ">Massage Packages</h2>
 <div class="comn_package_row_outer">
 <div class="row comn_package_row">
 <div class="col-lg-6">
@@ -50,9 +51,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Rejuvenation massage</h4>
-<div class="pkg_minuts">45 / 60 / 90 minutes</div>
-<p>Full-body massage using warm medicated oils improves circulation, relieves fatigue and related body aches and nourishes the skin.</p>
+<h4 class="pkg_title"style="font-weight: bold;color:black; ">Rejuvenation massage</h4>
+<div class="pkg_minuts"style="color:black;">45 / 60 / 90 minutes</div>
+<p style="color: #FAB502;">Full-body massage using warm medicated oils improves circulation, relieves fatigue and related body aches and nourishes the skin.</p>
 </div>  
 </div>
 </div>
@@ -68,9 +69,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Marma Massage</h4>
-<div class="pkg_minuts">60 / 90 minutes</div>
-<p>A traditional Kerala Ayurvedic full-body massage that stimulates the vital energy points of the body, refreshing it by releasing the blockages in the energy flow.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Marma Massage</h4>
+<div class="pkg_minuts"style="color:black;">60 / 90 minutes</div>
+<p style="color: #FAB502;">A traditional Kerala Ayurvedic full-body massage that stimulates the vital energy points of the body, refreshing it by releasing the blockages in the energy flow.</p>
 </div>  
 </div>
 </div>
@@ -86,9 +87,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Abhyangam</h4>
-<div class="pkg_minuts">75 minutes</div>
-<p>A full-body therapeutic Ayurvedic massage using warm dosha-specific oils that revitalise body tissues by flushing out toxins.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Abhyangam</h4>
+<div class="pkg_minuts"style="color:black;">75 minutes</div>
+<p style="color: #FAB502;">A full-body therapeutic Ayurvedic massage using warm dosha-specific oils that revitalise body tissues by flushing out toxins.</p>
 </div>  
 </div>
 </div>
@@ -104,9 +105,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Ayurveda Back Massage</h4>
-<div class="pkg_minuts">30 minutes</div>
-<p>A therapeutic massage that uses selected oils and enhances blood circulation, eases muscular pain and relaxes the muscles of the neck, back and shoulders.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Ayurveda Back Massage</h4>
+<div class="pkg_minuts"style="color:black;">30 minutes</div>
+<p style="color: #FAB502;">A therapeutic massage that uses selected oils and enhances blood circulation, eases muscular pain and relaxes the muscles of the neck, back and shoulders.</p>
 </div>  
 </div>
 </div>
@@ -122,9 +123,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Indian Head Massage</h4>
-<div class="pkg_minuts">30 minutes</div>
-<p>A deeply relaxing head massage that releases stress accumulated in the scalp, neck and shoulders leaving behind a feeling of revitalisation.</p>
+<h4 class="pkg_title"style="font-weight: bold;color:black; ">Indian Head Massage</h4>
+<div class="pkg_minuts"style="color:black;">30 minutes</div>
+<p style="color: #FAB502;">A deeply relaxing head massage that releases stress accumulated in the scalp, neck and shoulders leaving behind a feeling of revitalisation.</p>
 </div>  
 </div>
 </div>
@@ -141,9 +142,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Neck and Shoulder massage </h4>
-<div class="pkg_minuts">30 minutes </div>
-<p>A stimulating warm oil massage for the neck and shoulders to ease muscular pain and tension caused by stress and incorrect sitting posture.</p>
+<h4 class="pkg_title"style="font-weight: bold; color:black;">Neck and Shoulder massage </h4>
+<div class="pkg_minuts"style="color:black;">30 minutes </div>
+<p style="color: #FAB502;">A stimulating warm oil massage for the neck and shoulders to ease muscular pain and tension caused by stress and incorrect sitting posture.</p>
 </div>  
 </div>
 </div>
@@ -160,9 +161,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Foot Massage </h4>
-<div class="pkg_minuts">30 minutes </div>
-<p>Addresses fatigue, improper circulation and dryness in the soles, feet and legs with its refreshing foot soak, warm oil massage and warm towel wipes.</p>
+<h4 class="pkg_title"style="font-weight: bold;color:black; ">Foot Massage </h4>
+<div class="pkg_minuts"style="color:black;">30 minutes </div>
+<p style="color: #FAB502;">Addresses fatigue, improper circulation and dryness in the soles, feet and legs with its refreshing foot soak, warm oil massage and warm towel wipes.</p>
 </div>  
 </div>
 </div>

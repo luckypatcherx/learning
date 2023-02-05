@@ -28,16 +28,16 @@
 <div class="body_wraper" >
 <?php include 'header.php'?>  
 <div class="page_content" >
-<section class="western_spa_landing bg_grd">
+<section class="western_spa_landing bg_grd" style="background: white;">
 <div class="container">
-<h3 class="site_title">Western Spa Packages</h3>
+<h3 class="site_title" style="font-weight: bold; ">Western Spa Packages</h3>
 <div class="row m_30">
 <div class="col-lg-4 col-sm-6">
 <div class="comn_tmt_cate_box">
 <div class="comn_img_block">
 <img src="images/western-spa/1.jpg">
 </div>  
-<h4>Massage Packages</h4>
+<h4 style="font-weight: bold; ">Massage Packages</h4>
 <a class="mlink" href="western-spa-massage-packages.php">more</a>
 </div> 
 </div> 
@@ -46,7 +46,7 @@
 <div class="comn_img_block">
 <img src="images/western-spa/2.jpg">
 </div>  
-<h4>Facial Packages</h4>
+<h4 style="font-weight: bold; ">Facial Packages</h4>
 <a class="mlink" href="western-spa-facial-packages.php">more</a>
 </div> 
 </div> 
@@ -55,7 +55,7 @@
 <div class="comn_img_block">
 <img src="images/western-spa/3.jpg">
 </div>  
-<h4>Skin Care Packages</h4>
+<h4 style="font-weight: bold; ">Skin Care Packages</h4>
 <a class="mlink" href="western-spa-skin-care-packages.php">more</a>
 </div> 
 </div> 

@@ -39,20 +39,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="body_wraper" >
 <?php include 'header.php'?>  
 <div class="page_content" >
-<section class="saloon_sec1 bg_grd comn_shape_bg3">
+<section class="saloon_sec1 bg_grd comn_shape_bg3" style="background:white;">
 <div class="container">
 <div class="title_row">
-<h2 class="site_title">Saloon Packages</h2>    
+<h2 class="site_title" style="font-weight: bold;color:black; ">Saloon Packages</h2>    
 </div>
 <div class="comn_saloon_category">
-<h3 class="sub_site_title">Woman Packages</h3>
+<h3 class="sub_site_title" style="font-weight: bold; ">Woman Packages</h3>
 <div class="row">
 <div class="col-lg-3 col-sm-6">
 <div class="sc_box">
 <div class="comn_img_block">
 <img src="images/saloon/woman/1.jpg">
 </div>  
-<h4>Hair Cut</h4>
+<h4 style="font-weight: bold; color:black;">Hair Cut</h4>
 </div>
 </div>    
 <div class="col-lg-3 col-sm-6">
@@ -60,7 +60,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/woman/2.jpg">
 </div>  
-<h4>Hair Spa</h4>
+<h4 style="font-weight: bold; color:black;">Hair Spa</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -68,7 +68,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/woman/3.jpg">
 </div>  
-<h4>Hair Blow Dry</h4>
+<h4 style="font-weight: bold;color:black; ">Hair Blow Dry</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -76,7 +76,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/woman/4.jpg">
 </div>  
-<h4>Hair Straightening</h4>
+<h4 style="font-weight: bold; color:black;">Hair Straightening</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -84,7 +84,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/woman/5.jpg">
 </div>  
-<h4>Hair Curling</h4>
+<h4 style="font-weight: bold;color:black; ">Hair Curling</h4>
 </div>
 </div> 
     
@@ -92,14 +92,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
  
 <div class="comn_saloon_category">
-<h3 class="sub_site_title">Hair Colour Packages</h3>
+<h3 class="sub_site_title" style="font-weight: bold; ">Hair Colour Packages</h3>
 <div class="row">
 <div class="col-lg-3 col-sm-6">
 <div class="sc_box">
 <div class="comn_img_block">
 <img src="images/saloon/hair-color/1.jpg">
 </div>  
-<h4>Regular</h4>
+<h4 style="font-weight: bold;color:black; ">Regular</h4>
 </div>
 </div>    
 <div class="col-lg-3 col-sm-6">
@@ -107,7 +107,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/hair-color/2.jpg">
 </div>  
-<h4>Premium</h4>
+<h4 style="font-weight: bold; color:black;">Premium</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -115,7 +115,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/hair-color/3.jpg">
 </div>  
-<h4>Signature</h4>
+<h4 style="font-weight: bold; color:black;">Signature</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -123,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/hair-color/4.jpg">
 </div>  
-<h4>Dandruff Treatment</h4>
+<h4 style="font-weight: bold; color:black;">Dandruff Treatment</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -131,7 +131,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/hair-color/5.jpg">
 </div>  
-<h4>Protein Treatment</h4>
+<h4 style="font-weight: bold; color:black;">Protein Treatment</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -139,7 +139,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/hair-color/6.jpg">
 </div>  
-<h4>Henna</h4>
+<h4 style="font-weight: bold;color:black; ">Henna</h4>
 </div>
 </div> 
   <div class="col-lg-3 col-sm-6">
@@ -147,7 +147,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/hair-color/7.jpg">
 </div>  
-<h4>Threading</h4>
+<h4 style="font-weight: bold; color:black;">Threading</h4>
 </div>
 </div> 
     
@@ -156,14 +156,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 
 <div class="comn_saloon_category">
-<h3 class="sub_site_title">Facial Packages</h3>
+<h3 class="sub_site_title" style="font-weight: bold; ">Facial Packages</h3>
 <div class="row">
 <div class="col-lg-3 col-sm-6">
 <div class="sc_box">
 <div class="comn_img_block">
 <img src="images/saloon/facial/1.jpg">
 </div>  
-<h4>Fruits Facial</h4>
+<h4 style="font-weight: bold; color:black;">Fruits Facial</h4>
 </div>
 </div>    
 <div class="col-lg-3 col-sm-6">
@@ -171,7 +171,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/facial/2.jpg">
 </div>  
-<h4>Gold Facial</h4>
+<h4 style="font-weight: bold;color:black; ">Gold Facial</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -179,7 +179,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/facial/3.jpg">
 </div>  
-<h4>Pearl-Diamond Facial</h4>
+<h4 style="font-weight: bold; color:black;">Pearl-Diamond Facial</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -187,7 +187,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/facial/4.jpg">
 </div>  
-<h4>Clean Up Facial</h4>
+<h4 style="font-weight: bold;color:black; ">Clean Up Facial</h4>
 </div>
 </div> 
     
@@ -196,7 +196,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/facial/5.jpg">
 </div>  
-<h4>Oxy Bleach</h4>
+<h4 style="font-weight: bold; color:black;">Oxy Bleach</h4>
 </div>
 </div> 
     
@@ -206,14 +206,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
     
 <div class="comn_saloon_category">
-<h3 class="sub_site_title">Wedding Packages</h3>
+<h3 class="sub_site_title" style="font-weight: bold; ">Wedding Packages</h3>
 <div class="row">
 <div class="col-lg-3 col-sm-6">
 <div class="sc_box">
 <div class="comn_img_block">
 <img src="images/saloon/wedding/1.jpg">
 </div>  
-<h4>Bridal Package</h4>
+<h4 style="font-weight: bold;color:black; ">Bridal Package</h4>
 </div>
 </div>    
 <div class="col-lg-3 col-sm-6">
@@ -221,7 +221,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/wedding/2.jpg">
 </div>  
-<h4>Groom Package</h4>
+<h4 style="font-weight: bold;color:black; ">Groom Package</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -229,7 +229,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/wedding/3.jpg">
 </div>  
-<h4>Basic Party Make Up</h4>
+<h4 style="font-weight: bold;color:black; ">Basic Party Make Up</h4>
 </div>
 </div> 
 <div class="col-lg-3 col-sm-6">
@@ -237,7 +237,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/wedding/4.jpg">
 </div>  
-<h4>Flower Bouquet</h4>
+<h4 style="font-weight: bold; color:black;">Flower Bouquet</h4>
 </div>
 </div> 
      
@@ -245,14 +245,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
     
     <div class="comn_saloon_category">
-<h3 class="sub_site_title">Men </h3>
+<h3 class="sub_site_title" style="font-weight: bold; ">Men </h3>
 <div class="row">
 <div class="col-lg-3 col-sm-6">
 <div class="sc_box">
 <div class="comn_img_block">
 <img src="images/saloon/men/1.jpg">
 </div>  
-<h4>Hair Cut </h4>
+<h4 style="font-weight: bold;color:black; ">Hair Cut </h4>
 </div>
 </div>    
   <div class="col-lg-3 col-sm-6">
@@ -260,7 +260,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/men/2.jpg">
 </div>  
-<h4>Hair Spa </h4>
+<h4 style="font-weight: bold; color:black;">Hair Spa </h4>
 </div>
 </div> 
      
@@ -268,14 +268,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
     
      <div class="comn_saloon_category">
-<h3 class="sub_site_title">Wax </h3>
+<h3 class="sub_site_title" style="font-weight: bold; ">Wax </h3>
 <div class="row">
 <div class="col-lg-3 col-sm-6">
 <div class="sc_box">
 <div class="comn_img_block">
 <img src="images/saloon/wax/1.jpg">
 </div>  
-<h4>Chocolate/ Honey </h4>
+<h4 style="font-weight: bold; color:black;">Chocolate/ Honey </h4>
 </div>
 </div>    
 <div class="col-lg-3 col-sm-6">
@@ -283,21 +283,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/wax/2.jpg">
 </div>  
-<h4>Brazilian </h4>
+<h4 style="font-weight: bold; color:black;">Brazilian </h4>
 </div>
 </div>   
 </div>
 </div>
     
      <div class="comn_saloon_category">
-<h3 class="sub_site_title">Pedicure & Manicure </h3>
+<h3 class="sub_site_title" style="font-weight: bold; ">Pedicure & Manicure </h3>
 <div class="row">
 <div class="col-lg-3 col-sm-6">
 <div class="sc_box">
 <div class="comn_img_block">
 <img src="images/saloon/pm/1.jpg">
 </div>  
-<h4>Express Pedicure </h4>
+<h4 style="font-weight: bold;color:black; ">Express Pedicure </h4>
 </div>
 </div>    
 <div class="col-lg-3 col-sm-6">
@@ -305,7 +305,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="comn_img_block">
 <img src="images/saloon/pm/2.jpg">
 </div>  
-<h4>Express Manicure </h4>
+<h4 style="font-weight: bold;color:black; ">Express Manicure </h4>
 </div>
 </div>  
 </div>

@@ -35,9 +35,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="body_wraper" >
 <?php include 'header.php'?>  
 <div class="page_content" >
-<section class="W_skincare_sec bg_grd comn_shape_bg2">
+<section class="W_skincare_sec bg_grd comn_shape_bg2" style="background: white; background: url(images/bg2...png);background-posotion:center; 
+    background-size: cover;">
 <div class="container">
-<h2 class="site_title">Skin Care Packages</h2>
+<h2 class="site_title" style="font-weight: bold; color:black;">Skin Care Packages</h2>
 <div class="comn_package_row_outer">
 <div class="row comn_package_row">
 <div class="col-lg-6">
@@ -50,9 +51,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Silky Skin Body Scrub   </h4>
-<div class="pkg_minuts">45 minutes </div>
-<p>This unique body scrub carefully deep cleanses and exfoliates to eliminate dead skin cells, skin-bound toxins, impurities and sebum accumulation. Recommended for all skin types.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Silky Skin Body Scrub   </h4>
+<div class="pkg_minuts"style=" color:black;">45 minutes </div>
+<p style="color: #FAB502;">This unique body scrub carefully deep cleanses and exfoliates to eliminate dead skin cells, skin-bound toxins, impurities and sebum accumulation. Recommended for all skin types.</p>
 </div>  
 </div>
 </div>
@@ -69,9 +70,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">De Aging Salt Mousse Scrub   </h4>
-<div class="pkg_minuts">45 minutes </div>
-<p>The salt mousse scrub with sea minerals and fruit enzymes removes dead skin cells resulting in a more radiant appearance. Suits all skin types.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">De Aging Salt Mousse Scrub   </h4>
+<div class="pkg_minuts"style="color:black;">45 minutes </div>
+<p style="color: #FAB502;">The salt mousse scrub with sea minerals and fruit enzymes removes dead skin cells resulting in a more radiant appearance. Suits all skin types.</p>
 </div>  
 </div>
 </div>
@@ -88,9 +89,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Green Coffee Body Wrap   </h4>
-<div class="pkg_minuts">90 minutes </div>
-<p>This slimming and toning wrap stimulates your body’s ability to break down fat, increase metabolism and eliminate water retention.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Green Coffee Body Wrap   </h4>
+<div class="pkg_minuts"style="color:black;">90 minutes </div>
+<p style="color: #FAB502;">This slimming and toning wrap stimulates your body’s ability to break down fat, increase metabolism and eliminate water retention.</p>
 </div>  
 </div>
 </div>
@@ -107,9 +108,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Aromatic Moor Mud Wrap   </h4>
-<div class="pkg_minuts">90 minutes </div>
-<p>Soothes sore muscles, aches and pains by stimulating your body’s circulation. Ideal for those prone to chronic pain or fatigue, rheumatism / arthritis pain and post sports injuries.</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Aromatic Moor Mud Wrap   </h4>
+<div class="pkg_minuts"style="color:black;">90 minutes </div>
+<p style="color: #FAB502;">Soothes sore muscles, aches and pains by stimulating your body’s circulation. Ideal for those prone to chronic pain or fatigue, rheumatism / arthritis pain and post sports injuries.</p>
 </div>  
 </div>
 </div>
@@ -126,9 +127,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="col-lg-6">
 <div class="sec_right">
 <div>
-<h4 class="pkg_title">Vichy Shower   </h4>
-<div class="pkg_minuts">15 minutes </div>
-<p>A cascade of water hitting your body through gentle sprays of Vichy shower (a shower with seven shower heads) energises your body chakras, eases muscle tension, cleanses and hydrates. (It can easily be enjoyed separately or following any body massages or skin treatments for a complete Spa experience.)</p>
+<h4 class="pkg_title" style="font-weight: bold; color:black;">Vichy Shower   </h4>
+<div class="pkg_minuts"style="color:black;">15 minutes </div>
+<p style="color: #FAB502;">A cascade of water hitting your body through gentle sprays of Vichy shower (a shower with seven shower heads) energises your body chakras, eases muscle tension, cleanses and hydrates. (It can easily be enjoyed separately or following any body massages or skin treatments for a complete Spa experience.)</p>
 </div>  
 </div>
 </div>

@@ -33,7 +33,7 @@
 <div class="row">
 <div class="col-lg-4">
 <div class="sec_left">
-<h1 class="site_title">About Us </h1>   
+<h1 class="site_title" style="font-weight: bold; ">About Us </h1>   
 <p>Indulge your senses and discover euphoria in our full service spa. We offer spa services for head to toe beauty including facials, body treatments, hair removal and spray tanning.  </p>
 
 </div>    
@@ -41,8 +41,8 @@
     
 <div class="col-lg-8">
 <div class="sec_right">
-<p>We use the highest quality products in our spa, to enhance your natural beauty. Over the years we have proudly served tens of thousands of clients, this has allowed us to make our mark.Our Manicures, Pedicures, Waxing, Facials & Massages provide the soothing experience while effectively medicating with exfoliation & hydration. </p>
-<p>The fusion of our skilled experts combined with our authentic professional & retail products used has enabled us to maintain this high level of service.</p>
+<p style="color: #FAB502;">We use the highest quality products in our spa, to enhance your natural beauty. Over the years we have proudly served tens of thousands of clients, this has allowed us to make our mark.Our Manicures, Pedicures, Waxing, Facials & Massages provide the soothing experience while effectively medicating with exfoliation & hydration. </p>
+<p style="color: #FAB502;">The fusion of our skilled experts combined with our authentic professional & retail products used has enabled us to maintain this high level of service.</p>
 </div>  
 </div>  
     

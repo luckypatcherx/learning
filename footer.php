@@ -1,6 +1,6 @@
 
 
-<footer class="footer_sec">
+<footer class="footer_sec" style="background-color: black; color: white;" >
 <div class="container">
 <div class="row">
 <div class="col-xl-3 col-lg-3 ">
@@ -22,8 +22,8 @@
 <div class="ftr_widget ">
 <h6 class="footer_title">Quick Links</h6>
 <div class="fnav_left">
-<ul>
-<li><a href="index.php">Home</a></li>       
+<ul >
+<li><a href="index.php" >Home</a></li>       
 <li><a href="ayurveda-spa.php">Ayurveda Spa</a></li> 
 <li><a href="western-spa.php">Western Spa</a></li> 
 <li><a href="saloon.php">Saloon</a></li> 

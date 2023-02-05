@@ -1,4 +1,4 @@
-<nav class="panel-menu mobile-main-menu" >
+<nav class="panel-menu mobile-main-menu"  >
 <ul>
 <li><a href="index.php">Home</a></li>
 <li><a href="about.php">About Us </a></li>
@@ -30,7 +30,7 @@
 <div class="header_outer">
 <div class="headerin">   
 <div id="sticky_funtion" class="menudiv " >
-<div class="for_megamenu">
+<div class="for_megamenu" style="background-color: black; color: black;">
 <div class="container">
 <div class="header_align">
 <div class="logo_sec">
@@ -44,19 +44,20 @@
 <ul class="desktop_menu_ul ">
 <!--<li><a href="index.php">Home</a></li>-->
 <li class="mega_menu arrow_sub">
-<a  href="javascript:void(0)" >Ayurveda Spa</a>
+<a  href="javascript:void(0)"  style="color:#FAB502;font-weight: 600 ;">Ayurveda Spa</a>
 <ul>
-<li><a href="ayurveda-spa-massage-packages.php">Massage Packages</a></li>    
-<li><a href="ayurveda-spa-therapies-packages.php">Therapies Packages </a></li> 
-<li><a href="ayurveda-spa-skin-care-packages.php">Skin Care Packages </a></li>  <li><a href="ayurveda-spa-signature-packages.php">Signature Packages </a></li>   
+<li><a href="ayurveda-spa-massage-packages.php" style="color:#FAB502;font-weight: 600 ;">Massage Packages</a></li>    
+<li><a href="ayurveda-spa-therapies-packages.php" style="color:#FAB502;font-weight: 600 ;">Therapies Packages </a></li> 
+<li><a href="ayurveda-spa-skin-care-packages.php" style="color:#FAB502;font-weight: 600 ;">Skin Care Packages </a></li>
+  <li><a href="ayurveda-spa-signature-packages.php" style="color:#FAB502;font-weight: 600 ;">Signature Packages </a></li>   
 </ul>
 </li>
 <li class="mega_menu arrow_sub">
-<a  href="javascript:void(0)" >Western Spa</a>
+<a  href="javascript:void(0)"  style="color:#FAB502;font-weight: 600 ;">Western Spa</a>
 <ul>
-<li><a href="western-spa-massage-packages.php">Massage Packages </a></li>    
-<li><a href="western-spa-facial-packages.php">Facial Packages </a></li>    
-<li><a href="western-spa-skin-care-packages.php">Skin Care Packages </a></li> 
+<li><a href="western-spa-massage-packages.php" style="color:#FAB502;font-weight: 600 ;">Massage Packages </a></li>    
+<li><a href="western-spa-facial-packages.php" style="color:#FAB502;font-weight: 600 ;">Facial Packages </a></li>    
+<li><a href="western-spa-skin-care-packages.php" style="color:#FAB502;font-weight: 600 ;">Skin Care Packages </a></li> 
 </ul>
 </li>
 <!--
@@ -103,14 +104,14 @@
 </div>
 </li>
 -->
-<li class=""><a href="saloon.php">Saloon </a> </li>
-<li><a href="about.php">About Us</a></li>
-<li><a href="contact.php">Contact Us</a></li>
+<li class=""><a href="saloon.php" style="color:#FAB502;font-weight: 600 ;">Saloon </a> </li>
+<li><a href="about.php" style="color:#FAB502;font-weight: 600 ;">About Us</a></li>
+<li><a href="contact.php" style="color:#FAB502;font-weight: 600 ;">Contact Us</a></li>
 </ul> 
 </nav>   
 </div>  
 <div class="header_enq d-none d-lg-flex">
-<a id="" href="javascript:void(0)" class="theme_btn book_demo" data-bs-toggle="modal" data-bs-target="#en_form">Book Now</a>	
+<a id="" href="javascript:void(0)" class="theme_btn book_demo" data-bs-toggle="modal" data-bs-target="#en_form" style="color:black;font-weight: 600 ;background-color: #FAB502;">Book Now</a>	
 </div>
 <div class="mobile_menu">
 <div class="tt-menu-toggle ">
